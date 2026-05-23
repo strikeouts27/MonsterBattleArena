@@ -1,0 +1,57 @@
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+*.pidb
+*.svclog
+*.scc
+
+# Visual Studio Code
+.vscode/
+
+# Rider / IntelliJ
+.idea/
+*.sln.iml
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+*.snupkg
+# Uncomment to ignore packages folder (useful when using packages.config)
+# packages/
+
+# Test results / coverage
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage*
+
+# Publish / artifacts
+publish/
+artifacts/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Secrets
+secrets.json
+appsettings.*.local.json
+
+# Diagnostics
+*.stackdump
